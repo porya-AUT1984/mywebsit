@@ -3,12 +3,12 @@
 
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="css/animate.css" type="text/css">
-        <link rel="stylesheet" href="css/grid.css" type="text/css">
-        <link rel="stylesheet" href="css/queries.css" type="text/css">
-        <link rel="stylesheet" href="css/unslider.css" type="text/css">
-        <link rel="stylesheet" href="fonts/ionicons.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/grid.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/queries.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/unslider.css" type="text/css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fonts/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Virtual technologiess</title>
@@ -21,10 +21,10 @@
             <div class="mySlider">
 
                 <ul>
-                    <li><img src="css/cssimg/img3.jpg" alt=""></li>
-                    <li><img src="css/cssimg/img4.jpg" alt=""></li>
-                    <li><img src="css/cssimg/img5.jpg" alt=""></li>
-                    <li><img src="css/cssimg/img6.jpg" alt=""></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img3.jpg" alt=""></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img4.jpg" alt=""></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img5.jpg" alt=""></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img6.jpg" alt=""></li>
                 </ul>
 
             </div>
@@ -40,13 +40,7 @@
             <nav class="navigation">
 
                 <ul>
-
-
-                    <li><a href="">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-
-
+                    <?php wp_nav_menu(array('theme_location' => 'primary' )) ;?>
                 </ul>
 
             </nav>
@@ -284,25 +278,25 @@
 
                 <div class="col span-1-of-4">
 
-                    <img src="img/Portfolio/IMG1.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG1.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG2.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG2.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG3.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG3.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG4.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG4.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
@@ -316,25 +310,25 @@
 
                 <div class="col span-1-of-4">
 
-                    <img src="img/Portfolio/IMG5.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG5.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG6.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG6.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG7.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG7.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
 
                 <div class="col span-1-of-4">
-                    <img src="img/Portfolio/IMG8.jpg" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/Portfolio/IMG8.jpg" alt="">
                     <p>front End Developer</p>
                     <a href="#">http://abcd.com</a>
                 </div>
@@ -453,10 +447,10 @@
         </footer><!--Footer Ends Here-->
 
 
-        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-        <script src="js/unslider.js" type="text/javascript"></script>
-        <script src="js/wow.min.js" type="text/javascript"></script>
-        <script src="js/script.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/unslider.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/wow.min.js" type="text/javascript"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/script.js" type="text/javascript"></script>
     </body>
 
     </html>
