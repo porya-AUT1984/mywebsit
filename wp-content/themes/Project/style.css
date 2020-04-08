@@ -1,0 +1,694 @@
+/*
+
+Theme name: Project One
+Author: Abul Hossain
+Author uri: http://virtualtechnologiess.com
+Version: 1.0.0
+
+
+*/
+
+/*========================
+        Global Rule
+==========================*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 150%;
+    overflow-wrap: break-word;
+    font-size: 20px;
+
+}
+
+html {
+
+    font-family: lato, sans-serif, serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+/*================
+       Logo
+==================*/
+
+.logo {
+
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.logo img {
+
+    width: 68%;
+}
+
+/*===================
+    Navigation
+=====================*/
+
+.navigation {
+
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 80%;
+}
+
+
+.navigation li {
+
+    display: inline-block;
+}
+
+.navigation li a {
+
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 80%;
+}
+
+
+.navigation li a:hover {
+
+    border-bottom: 1px solid white;
+}
+
+
+/*================
+        Tagline
+=================*/
+
+.tagline {
+
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: white;
+}
+
+.tagline p {
+
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+/*=======================
+Header Call to action btn
+=========================*/
+
+.home-btn {
+
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 41%;
+}
+
+.home-btn a {
+
+    color: white;
+    border: 1px solid white;
+    padding: 20px 60px;
+}
+
+
+.home-btn a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+/*===============================
+          Specialties
+=================================*/
+
+.secSpe {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    padding: 70px 0;
+}
+
+.secSpe i {
+
+    font-size: 5vw;
+    color: #00BFFF;
+}
+
+
+.secSpe p {
+
+    display: inline-block;
+    font-size: 5vw;
+}
+
+.secSpe span {
+
+    font-size: 5vw;
+    color: #00BFFF;
+}
+
+
+.special {
+
+    background-image: url(css/cssimg/parallax.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px 0;
+
+}
+
+
+
+
+.box1 {}
+
+
+.box1 i {
+
+    font-size: 5vw;
+    color: #00BFFF;
+}
+
+
+
+.box1 p {
+
+    color: white;
+    font-weight: 100;
+}
+
+.box1 h2 {
+
+    color: white;
+    margin: 20px 0;
+}
+
+
+/*=======================
+   My Packages Section
+=========================*/
+
+.ion-cube {
+
+    margin-right: 20px;
+}
+
+.packageP {
+
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+
+/*Package box2*/
+
+.box2 p {
+
+    font-size: 200%;
+    background-color: #FFA500;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+
+.box2 h3 {
+
+    background-color: #FFA500;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+
+}
+
+.box2 li {
+
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+
+.box2 li:first-child {
+
+    padding-top: 20px;
+}
+
+
+.box2 li:last-child {
+
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+
+.box2 li a {
+
+    background-color: #00BFFF;
+    padding: 10px 90px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*Package box3*/
+
+.box3 p {
+
+    font-size: 200%;
+    background-color: #FFC400;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+
+.box3 h3 {
+
+    background-color: #FFC400;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+
+}
+
+.box3 li {
+
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+
+.box3 li:first-child {
+
+    padding-top: 20px;
+}
+
+
+.box3 li:last-child {
+
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+
+.box3 li a {
+
+    background-color: #00BFFF;
+    padding: 10px 90px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*Package Box4*/
+
+.box4 p {
+
+    font-size: 200%;
+    background-color: #FF0000;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+
+.box4 h3 {
+
+    background-color: #FF0000;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+
+}
+
+.box4 li {
+
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+
+.box4 li:first-child {
+
+    padding-top: 20px;
+}
+
+
+.box4 li:last-child {
+
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+
+.box4 li a {
+
+    background-color: #00BFFF;
+    padding: 10px 90px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*===============================
+          My Portfolio
+=================================*/
+
+.ion-briefcase {
+
+    margin-right: 20px;
+}
+
+
+.porTitle {
+
+    background-color: #EDEDED;
+}
+
+
+.secPort a {
+
+    color: red;
+}
+
+
+.secPort {
+
+    padding: 150px 0;
+    background-image: url(css/cssimg/texture.jpg);
+}
+
+
+.portRow1 {
+
+    margin-bottom: 50px;
+}
+
+
+.secPort img {
+
+    width: 100%;
+}
+
+
+
+/*======================
+   About Me Section
+=======================*/
+
+.ion-person-stalker {
+
+    margin-right: 20px;
+}
+
+
+.aboutTitle {
+
+    background-color: #E8E8E8;
+}
+
+.aboutSec {
+
+    background-color: #E8E8E8;
+    padding-bottom: 50px;
+}
+
+
+.aboutSec img {
+
+    display: block;
+    margin: 0 auto;
+}
+
+
+.aboutBox {
+
+    border: 1px solid #00BFFF;
+    text-align: center;
+}
+
+.aboutP1 {
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.aboutP2 {
+
+    margin-bottom: 50px;
+}
+
+
+/*================================
+        Contact Me Section
+==================================*/
+
+.contactSec {
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.70)), to(rgba(0, 0, 0, 0.70))),
+    url(img/contactme/contact_bg.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),
+    url(img/contactme/contact_bg.jpg);
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+}
+
+
+.formControl label {
+
+    display: block;
+    margin-bottom: 10px;
+    color: #A5FF4A;
+}
+
+
+.formControl textarea {
+
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #A5FF4A;
+
+
+}
+
+.formControl input[type=text],
+.formControl input[type=email] {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px solid #A5FF4A;
+
+}
+
+.formControl input[type=submit] {
+
+    width: 100%;
+    background-color: #A5FF4A;
+    padding: 10px 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+}
+
+.formControl input[type=submit]:hover {
+
+    background-color: #C8FF91;
+    cursor: pointer;
+}
+
+
+.contactP {
+
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #A5FF4A;
+    margin-bottom: 40px;
+}
+
+
+/*========================
+Footer Section
+==========================*/
+
+.scolor {
+
+    color: skyblue;
+}
+
+
+.footerSec {
+
+    padding: 50px 0;
+    background-color: #1B1E21;
+}
+
+.footerBox {
+
+    border: 1px solid #87CEEB;
+    color: #87CEEB;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footerBox p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.ion-email {
+
+    font-size: 300%;
+}
+
+
+.footerinfo {
+
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 90%;
+    font-weight: 100;
+
+}
+
+
+.ion-android-call {
+
+    font-size: 300%;
+}
+
+
+.ion-social-facebook-outline {
+
+    font-size: 300%;
+}
+
+
+.ion-social-linkedin-outline {
+    font-size: 300%;
+    margin-left: 10px;
+}
+
+
+/*====================*/
+
+.blog {
+
+    padding: 50px 0;
+    background-color: deepskyblue;
+    margin: 60px 0;
+}
+
+
+.blog p {
+
+    font-size: 200%;
+    color: white;
+    padding-left: 50px;
+}
+
+
+/*===========================
+      Blog Page Style
+============================*/
+
+.thumbnail img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+.secblog {
+
+    background-color: deepskyblue;
+    height: 100px;
+    margin: 3% 0;
+}
+
+
+.secblog p {
+
+
+    font-size: 150%;
+    padding-left: 15%;
+    padding-top: 1.5%;
+    color: white;
+}
+
+
+.blogbox {
+
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    padding: 1%;
+}
+
+
+.permalink a {
+
+    font-size: 150%;
+    color: black;
+}
+
+.content a {
+
+    display: inline-block;
+    color: white;
+    background-color: deepskyblue;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.meta {
+
+    font-size: 80%;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+/*========================
+        UnSlider
+=========================*/
+
+.mySlider img{
+    width: 100%;
+}
