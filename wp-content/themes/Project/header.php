@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fonts/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Virtual technologiess</title>
+          <title><?php bloginfo('name'); ?></title>
     </head>
 
     <body>
@@ -33,8 +33,9 @@
             <div class="logo">
 
                 <a href="index.html">
-        <img src="img/logo1.png" alt="">
-        </a>
+                    <img src="<?php bloginfo('template_directory'); ?>/img/logoo.png" alt=""> </img>
+                    <h2><?php bloginfo('name'); ?></h2>
+              </a>
             </div>
 
             <nav class="navigation">
@@ -48,7 +49,7 @@
 
             <div class="tagline">
 
-                <p>I DESIGN AND DEVELOP USER FRIENDLY WEBSITES</p>
+                <p><?php bloginfo('description'); ?></p>
             </div>
 
             <div class="home-btn">
