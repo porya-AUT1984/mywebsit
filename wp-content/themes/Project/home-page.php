@@ -18,7 +18,7 @@ Template Name: Home Page
 <section class="special">
 
 
-    <div class="row box1">
+    <div class="row box1 wow slideInUp " data-wow-duration="1s" data-wow-delay=".4s">
 
         <div class="col span-1-of-3">
 
@@ -51,7 +51,7 @@ Template Name: Home Page
 
 
 
-    <div class="row box1">
+    <div class="row box1 wow slideInUp " data-wow-duration="1s" data-wow-delay=".5s">
 
         <div class="col span-1-of-3">
 
@@ -100,11 +100,11 @@ Template Name: Home Page
 <section class="packages">
 
 
-   <div class="row">
+   <div class="row wow slideInUp " data-wow-duration="1s" data-wow-delay=".5s">
 
 
       <div class="col span-1-of-3 box2">
-         <p><?php the_field('box_one_price'); ?></p>
+
          <h3><?php the_field('box_one_title'); ?></h3>
 
          <ul>
@@ -121,7 +121,7 @@ Template Name: Home Page
 
 
             <div class="col span-1-of-3 box3">
-         <p> <?php the_field('box_two_price'); ?></p>
+
          <h3><?php the_field('box_two_title'); ?></h3>
  <ul>
             <?php the_field('box_two_description'); ?>
@@ -135,7 +135,7 @@ Template Name: Home Page
 
 
             <div class="col span-1-of-3 box4">
-         <p><?php the_field('box_three_price'); ?></p>
+        
          <h3><?php the_field('box_three_title'); ?></h3>
          <ul>
             <?php the_field('box_three_description'); ?>
@@ -192,7 +192,7 @@ Template Name: Home Page
 
 
 
-   <div class="row portRow1">
+   <div class="row portRow1 data-wow-duration="2s" data-wow-delay="1s">">
 
 
       <div class="col span-1-of-4">
@@ -295,12 +295,13 @@ Template Name: Home Page
 
 <section class="contactSec">
 
-   <div class="row formControl">
+   <div class="row formControl  wow slideInUp " data-wow-duration="1s" data-wow-delay=".5s">">
 
      <p class="contactP">contact me</p>
 
 
-      <?php echo do_shortcode('[contact-form-7 id="90" title="contact"]'); ?>
+
+           <?php echo do_shortcode('[contact-form-7 id="44" title="Contact form 1"]'); ?>
 
 
 

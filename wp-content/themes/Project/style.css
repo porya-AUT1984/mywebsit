@@ -1,16 +1,13 @@
 /*
 
 Theme name: Project One
-Author: Abul Hossain
-Author uri: http://virtualtechnologiess.com
+Author: pourya Zarei
+Author uri: http://IT-developer.com
 Version: 1.0.0
 
 
 */
 
-/*========================
-        Global Rule
-==========================*/
 
 *{
 
@@ -50,8 +47,16 @@ html{
     position: absolute;
     top: 50px;
     left: 40px;
+    transition:  transform 3s ,filter 2s;
+    filter:drop-shadow(8px 8px 5x red);
 }
+.logo:hover{
 
+  filter:drop-shadow(8px 8px 4px yellow);;
+
+
+
+}
 .logo img{
 
     width: 68%;
@@ -87,6 +92,7 @@ html{
 .navigation li a:hover{
 
     border-bottom: 1px solid white;
+
 }
 
 
@@ -102,7 +108,9 @@ html{
     left: 15%;
     color: white;
 }
-
+.tagline:hover{
+  text-shadow: 1px 1px 15px red, 0 0 25px blue, 0 0 5px darkblue;
+}
 .tagline p{
 
     font-size: 3vw;
@@ -233,7 +241,7 @@ Header Call to action btn
 .packageP{
 
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 
 }
 

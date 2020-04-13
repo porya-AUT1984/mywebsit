@@ -17,46 +17,46 @@
 <body>
 
 <header>
-    
+
     <div class="mySlider">
-        
+
         <ul>
             <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img3.jpg" alt=""></li>
             <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img4.jpg" alt=""></li>
             <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img5.jpg" alt=""></li>
             <li><img src="<?php bloginfo('template_directory'); ?>/css/cssimg/img6.jpg" alt=""></li>
         </ul>
-        
+
     </div>
-    
-    
-    <div class="logo">
-        
+
+
+    <div class="logo wow slideInLeft " data-wow-duration="1s" data-wow-delay=".3s"">
+
         <a href="<?php echo home_url(); ?>">
         <img src="<?php bloginfo('template_directory'); ?>/img/logo1.png" alt="">
         </a>
     </div>
-    
+
     <nav class="navigation">
-        
+
         <ul>
-          
-     
+
+
         <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
-  
-          
+
+
         </ul>
-        
+
     </nav>
-    
-    
-    <div class="tagline">
-        
+
+
+    <div class="tagline wow slideInRight " data-wow-duration="1s" data-wow-delay=".2s">
+
         <p><?php bloginfo('description'); ?></p>
     </div>
-    
+
     <div class="home-btn">
         <a href="">GET YOUR WEBSITE</a>
     </div>
-    
+
 </header>
