@@ -1,9 +1,3 @@
-//WOW.js
-
- new WOW().init();
-
-
-
 //Unslider
 
 $('.mySlider').unslider({

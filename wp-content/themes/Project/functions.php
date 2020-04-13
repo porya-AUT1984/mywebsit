@@ -1,6 +1,6 @@
 <?php
 	function project_one(){
-
+        
 		// FEnable Post Thumbnail
 		add_theme_support('post-thumbnails');
 
@@ -12,25 +12,25 @@
 
 		// Enable Format Support
 		add_theme_support('post-formats', array(
-
-            'aside',
-            'gallery',
-            'link',
+            
+            'aside', 
+            'gallery', 
+            'link', 
             'image',
-            'quote',
-            'status',
-            'video',
-            'audio',
-            'chat'
+            'quote', 
+            'status', 
+            'video', 
+            'audio', 
+            'chat' 
         ));
 	}
 
 	add_action('after_setup_theme', 'project_one');
 
-	// Enable Widget
+	// Enable Widget 
 	function init_widgets($id){
-
-
+        
+        
         register_sidebar(array(
 			'name'	=> 'alpha',
 			'id'	=> 'alpha',
@@ -39,9 +39,9 @@
 			'before_title'	=> '<h3>',
 			'after_title'	=> '</h3>'
 		));
-
-
-
+        
+        
+        
              register_sidebar(array(
 			'name'	=> 'beta',
 			'id'	=> 'beta',
@@ -50,9 +50,9 @@
 			'before_title'	=> '<h3>',
 			'after_title'	=> '</h3>'
 		));
-
-
-
+        
+             
+        
 	}
 
 	add_action('widgets_init','init_widgets');
@@ -65,6 +65,4 @@
 	add_filter('excerpt_length','custom_length');
 
 
-
-
- ?>
+?>
